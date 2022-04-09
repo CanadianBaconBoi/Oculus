@@ -3,7 +3,7 @@
 
 name: Java CI with Brachyura
 
-on: [push, pull_request]
+on: [push, pull_request, workflow_run]
 
 jobs:
   build:
